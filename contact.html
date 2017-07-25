@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Contact</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-
+	<h1>Contact</h1>
+	<hr>
+	<!--TODO: PHP script to make this work correctly-->
+	<form action="mailto:nsperkins13@gmail.com" method="post" enctype="text/plain">
+		Name:<br>
+		<input type="text" name="name" placeholder="John Smith" required><br>
+		Email:<br>
+		<input type="text" name="email" placeholder="example@gmail.com" required><br>
+		Message:<br>
+		<textarea name="message" cols="40" rows="5" placeholder="Your message here..." required></textarea><br><br>
+		<input type="submit" value="Submit">
+	</form>
 </body>
 </html>
